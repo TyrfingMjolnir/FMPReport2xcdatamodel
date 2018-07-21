@@ -1,6 +1,7 @@
 # FMPReport2xcdatamodel
 ## FileMaker Data Design XML Report to CoreData contents-file
-This piece of tooling is an updated subset of a larger tool; for now there is only the data structure that is ported to 16 and tested.
+This piece of tooling is an updated subset of a larger tool; for now there is only the data structure that is ported to 16 and tested. One thing that is beyond me is why FileMaker exports regular data as UTF-8 and this report as UTF-16... I would prefer to see all character data as UTF-8 myself.
+
 #### Written by Gjermund Gusland Thorsen through years 1999 on, all rights deserved
 
 ### If you are using an older or newer version of XCode than 8.2.1 you may want to copy/paste the model element from your own CoreData file
