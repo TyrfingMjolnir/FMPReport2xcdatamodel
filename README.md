@@ -33,7 +33,7 @@ $ xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotC
 
 # FMPReport2xcdatamodel
 
-This piece of tooling gives you the power to convert a FileMaker graph to a CoreData graph by using this xslt as described above. If you use FileMaker as single source of truth AND need native support for data in iOS I have not find any better way to achieve naming conformity throughout the solution.
+This piece of tooling gives you the power to convert a 1 file FileMaker graph to a CoreData graph by using this xslt as described above. If you use FileMaker as single source of truth AND need native support for data in iOS I have not find any better way to achieve naming conformity throughout the solution.
 
 License
 =======
