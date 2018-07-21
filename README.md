@@ -18,7 +18,7 @@ In FileMaker go to the Tools-menu, and ask for a Database Design Report ...
 <img alt="Make sure what you export is XML" src="ScreenShot2.png" width="100%" max-width=1008>
 Make sure you check [X] Data Sources and check the radiobutton for (*) for XML
 <img alt="Pick a place to save the file" src="ScreenShot3.png" width="100%" max-width=1008>
-Save the file, preferably in the same folder as your XCode project if you are to play around with the data, or in the /tmp folder if it's a one off. 
+Save the file, preferably in the same folder as your FileMaker or XCode project if you are to play around with the data, or in the /tmp folder if it's a one off. 
 <img alt="What the folder you save to should at least contain" src="ScreenShot4.png" width="100%" max-width=1008>
 
 Please close your XCode project before you overwrite the entity file
