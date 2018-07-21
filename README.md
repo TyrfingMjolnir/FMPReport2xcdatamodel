@@ -22,7 +22,11 @@ Save the file, prefrebly in the same folder as your XCode project.
 
 Please close your XCode project before you overwrite the entity file
 ```bash
-$ curl https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt | xsltproc - /Users/user/Desktop/DDRTest/DDRTestMotCoreData_fmp12.xml
+$ time curl https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt | xsltproc - /Users/user/Desktop/DDRTest/DDRTestMotCoreData_fmp12.xml
+
+real	0m0.941s
+user	0m0.801s
+sys	0m0.137s
 ```
 or the more cumbersome approach downloading this project with PNGs that are larger than the tool itself.
 ```bash
