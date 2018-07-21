@@ -20,7 +20,7 @@ Save the file, prefrebly in the same folder as your XCode project.
 
 Please close your XCode project before you overwrite the entity file
 ```bash
-$ xsltproc https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+$ curl https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt | xsltproc - /Users/user/Desktop/DDRTest/DDRTestMotCoreData_fmp12.xml
 ```
 or
 ```bash
