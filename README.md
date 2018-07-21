@@ -7,7 +7,6 @@ If you are using an older or newer version of XCode than 8.2.1 you may want to c
 
 How to use this piece of tooling
 ---
-# There is not need to download anything what so ever.
 
 Create a new XCode project; make sure you have an empty CoreData xcdatamodel in your project
 
@@ -22,6 +21,14 @@ Save the file, prefrebly in the same folder as your XCode project.
 Please close your XCode project before you overwrite the entity file
 ```bash
 $ xsltproc https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+```
+or
+```bash
+$ sudo mkdir -p /opt/local/dev
+$ sudo chown $(whoami) /opt/local/dev
+$ cd /opt/local/dev
+$ git clone https://github.com/TyrfingMjolnir/FMPReport2xcdatamodel
+$ xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
 ```
 
 # FMPReport2xcdatamodel
