@@ -1,6 +1,6 @@
 # FMPReport2xcdatamodel
 ## FileMaker Data Design XML Report to CoreData contents-file
-This piece of tooling is an updated subset of a larger tool; for now there is only the data structure that is ported to 16.
+This piece of tooling is an updated subset of a larger tool; for now there is only the data structure that is ported to 16 and tested.
 #### Written by Gjermund Gusland Thorsen through years 1999 on, all rights deserved
 
 ### If you are using an older or newer version of XCode than 8.2.1 you may want to copy/paste the model element from your own CoreData file
