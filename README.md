@@ -28,7 +28,7 @@ real	0m3.400s
 user	0m0.848s
 sys	0m0.157s
 ```
-Timed from hotel room in Bali
+Timed from hotel room in Bali for a 50 table, 20 fields on average pr table file.
 
 or the more cumbersome approach downloading this project with PNGs that are larger than the tool itself.
 ```bash
