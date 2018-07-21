@@ -13,7 +13,7 @@ In FileMaker go to the Tools-menu, and ask for a Database Design Report ...
 <img alt="Tools -> Database Design Report..." src="ScreenShot1.png" width="100%" max-width=1008>
 
 <img alt="Make sure what you export is XML" src="ScreenShot2.png" width="100%" max-width=1008>
-Make sure you check the radiobutton for (*) for XML
+Make sure you choose Data sources and check the radiobutton for (*) for XML
 <img alt="Pick a place to save the file" src="ScreenShot3.png" width="100%" max-width=1008>
 <img alt="What the folder you save to should at least contain" src="ScreenShot4.png" width="100%" max-width=1008>
 
