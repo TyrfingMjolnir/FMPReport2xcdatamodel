@@ -7,7 +7,7 @@ If you are using an older or newer version of XCode than 8.2.1 you may want to c
 
 How to use this piece of tooling
 ---
-#There is not need to download anything what so ever.
+# There is not need to download anything what so ever.
 
 Create a new XCode project; make sure you have an empty CoreData xcdatamodel in your project
 
