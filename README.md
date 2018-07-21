@@ -24,7 +24,7 @@ Please close your XCode project before you overwrite the entity file
 ```bash
 $ curl https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt | xsltproc - /Users/user/Desktop/DDRTest/DDRTestMotCoreData_fmp12.xml
 ```
-or
+or the more cumbersome approach downloading this project with PNGs that are larger than the tool itself.
 ```bash
 $ sudo mkdir -p /opt/local/dev
 $ sudo chown $(whoami) /opt/local/dev
