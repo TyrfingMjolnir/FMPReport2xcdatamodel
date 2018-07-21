@@ -5,7 +5,7 @@ Written by Gjermund Gusland Thorsen through years 1999 on, all rights deserved
 
 If you are using an older or newer version of XCode than 8.2.1 you may want to copy/paste the model element from your own CoreData file
 
-How to use this file
+How to use this piece of tooling, there is not need to download anything what so ever.
 ---
 Create a new XCode project; make sure you have an empty CoreData xcdatamodel in your project
 
@@ -19,7 +19,7 @@ Save the file, prefrebly in the same folder as your XCode project.
 
 Please close your XCode project before you overwrite the entity file
 ```bash
-$ xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+$ xsltproc https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
 ```
 
 # FMPReport2xcdatamodel
