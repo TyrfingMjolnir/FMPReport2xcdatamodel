@@ -8,7 +8,7 @@ If you are using an older or newer version of XCode than 8.2.1 you may want to c
 	<xsl:apply-templates select="File"/>
 </xsl:template>
 <xsl:template match="File">
-<model userDefinedModelVersionIdentifier="<!--{@name}-->" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="13F1911" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="13F1911" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
 	<xsl:apply-templates select="BaseTableCatalog/BaseTable"/>
 </model>
 </xsl:template>
