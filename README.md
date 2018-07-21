@@ -24,17 +24,23 @@ Please close your XCode project before you overwrite the entity file
 ```bash
 $ time curl https://raw.githubusercontent.com/TyrfingMjolnir/FMPReport2xcdatamodel/master/fmpreport2xcdatamodel.xslt | xsltproc - /Users/user/Desktop/DDRTest/DDRTestMotCoreData_fmp12.xml
 
-real	0m0.941s
-user	0m0.801s
-sys	0m0.137s
+real	0m3.400s
+user	0m0.848s
+sys	0m0.157s
 ```
+Timed from hotel room in Bali
+
 or the more cumbersome approach downloading this project with PNGs that are larger than the tool itself.
 ```bash
 $ sudo mkdir -p /opt/local/dev
 $ sudo chown $(whoami) /opt/local/dev
 $ cd /opt/local/dev
 $ git clone https://github.com/TyrfingMjolnir/FMPReport2xcdatamodel
-$ xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+$ time xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+
+real	0m0.941s
+user	0m0.801s
+sys	0m0.137s
 ```
 
 # FMPReport2xcdatamodel
