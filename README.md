@@ -1,4 +1,4 @@
-# FMPReport2xcdatamodel
+# FMPReport2XCDataModel
 ## FileMaker Data Design XML Report to CoreData contents-file
 This piece of tooling is an updated subset of a larger tool; for now there is only the data structure that is ported to 16 and tested. One thing that is beyond me is why FileMaker exports regular data as UTF-8 and this report as UTF-16... I would prefer to see all character data as UTF-8 myself.
 
@@ -44,8 +44,7 @@ user	0m0.801s
 sys	0m0.137s
 ```
 
-# FMPReport2xcdatamodel
-
+# FMPReport2XCDataModel
 This piece of tooling gives you the power to convert a 1 file FileMaker graph to a CoreData graph by using this xslt as described above. If you use FileMaker as single source of truth AND need native support for data in iOS I have not find any better way to achieve naming conformity throughout the solution.
 
 License
