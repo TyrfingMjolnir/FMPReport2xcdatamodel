@@ -26,7 +26,7 @@ If you are using an older or newer version of XCode than 8.2.1 you may want to c
               substring( 'Date',	1 div boolean( @dataType  = 'DATE'      ) ),
               substring( 'Date',	1 div boolean( @dataType  = 'Date'      ) ),
               substring( 'Date',	1 div boolean( @dataType  = 'TIMESTAMP' ) ),
-              substring( 'Date',	1 div boolean( @dataType  = 'Timestamp' ) ),
+              substring( 'Date',	1 div boolean( @dataType  = 'TimeStamp' ) ),
               substring( 'Date',	1 div boolean( @dataType  = 'TIME'      ) ),
               substring( 'Date',	1 div boolean( @dataType  = 'Time'      ) ),
               substring( 'Integer 64',	1 div boolean( @dataType  = 'NUMBER'    ) ),
