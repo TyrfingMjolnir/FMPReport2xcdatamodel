@@ -21,7 +21,7 @@ If you are using an older or newer version of XCode than 8.2.1 you may want to c
 	<attribute name="{@name}" optional="YES" attributeType="{concat(
               substring( 'String',	1 div boolean( @dataType  = 'TEXT'      ) ),
               substring( 'String',	1 div boolean( @dataType  = 'Text'      ) ),
-              substring( 'Binary',	1 div boolean( @dataType  = 'Binary' ) ),
+              substring( 'Binary',	1 div boolean( @dataType  = 'Binary'    ) ),
               substring( 'Binary',	1 div boolean( @dataType  = 'CONTAINER' ) ),
               substring( 'Binary',	1 div boolean( @dataType  = 'Container' ) ),
               substring( 'Date',	1 div boolean( @dataType  = 'DATE'      ) ),
