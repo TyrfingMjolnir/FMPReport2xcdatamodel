@@ -6,6 +6,8 @@ This piece of tooling is an updated subset of a larger tool; for now there is on
 
 ### If you are using an older or newer version of XCode than 8.2.1 you may want to copy/paste the model element from your own CoreData file
 
+## Reminder; removing id-attributes will make XCode regenerate unique IDs.
+
 How to use this piece of tooling
 ---
 
