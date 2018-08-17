@@ -37,7 +37,7 @@ $ sudo mkdir -p /opt/local/dev
 $ sudo chown $(whoami) /opt/local/dev
 $ cd /opt/local/dev
 $ git clone https://github.com/TyrfingMjolnir/FMPReport2xcdatamodel
-$ time xsltproc fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
+$ time xsltproc /opt/local/dev/FMPReport2xcdatamodel/fmpreport2xcdatamodel.xslt DDRTestMotCoreData_fmp12.xml > DDRTestMotCoreData_fmp12.xcdatamodel/contents
 
 real	0m0.941s
 user	0m0.801s
